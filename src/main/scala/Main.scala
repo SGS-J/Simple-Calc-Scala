@@ -13,12 +13,12 @@ object Main extends JFXApp3{
     val scene = Scene(fxmlFile)
     val primaryStage = sfxStage2jfx(stage)
     initComponents(stage, scene)
+    stage.show()
 
   private def initComponents(stage: Stage, scene: Scene): Unit =
-    stage.setTitle("calculator")
+    stage.setTitle("Calculator")
     stage.setResizable(false)
     stage.setScene(scene)
-    stage.show()
 
   private def loadFXML(): Parent =
     val url = getClass.getResource("/main.fxml")
