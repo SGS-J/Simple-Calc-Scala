@@ -5,6 +5,8 @@ import javafx.event.ActionEvent
 import javafx.fxml.FXML
 import javafx.scene.control.{Button, Label, TextField}
 
+import java.util.{Optional, OptionalDouble}
+
 class InterfaceController {
   @FXML var inputNumbers: TextField = _
   @FXML var signLabel: Label = _

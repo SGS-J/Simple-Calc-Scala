@@ -1,0 +1,36 @@
+.btn {
+    -fx-cursor: hand;
+    -fx-border-radius: 0%;
+}
+
+.btn-c {
+    -fx-background-color: rgb(205,92,92);
+}
+
+.btn-c:hover {
+    -fx-background-color: rgba(205,92,92,0.7);
+}
+
+.btn-num {
+    -fx-background-color: rgb(128,128,128);
+}
+
+.btn-num:hover {
+    -fx-background-color: rgba(128,128,128,0.7);
+}
+
+.btn-sign {
+    -fx-background-color: rgb(211,211,211);
+}
+
+.btn-sign:hover {
+    -fx-background-color: rgba(211,211,211,0.7);
+}
+
+.btn-equals {
+    -fx-background-color: rgb(255,255,255);
+}
+
+.btn-equals:hover {
+    -fx-background-color: rgba(255,255,255,0.7);
+}

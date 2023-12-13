@@ -66,4 +66,7 @@ jitwatch.out
 .bloop
 project/**/metals.sbc
 
+# debug
+.scalafmt.conf
+
 .bsp
