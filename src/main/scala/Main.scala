@@ -9,9 +9,9 @@ import scalafx.stage.Stage.sfxStage2jfx
 object Main extends JFXApp3 {
   override def start(): Unit =
     stage = JFXApp3.PrimaryStage()
+    sfxStage2jfx(stage)
     val fxmlFile = loadFXML()
     val scene = Scene(fxmlFile)
-    val primaryStage = sfxStage2jfx(stage)
     initComponents(stage, scene)
     stage.show()
 
