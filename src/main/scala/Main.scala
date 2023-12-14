@@ -17,7 +17,7 @@ object Main extends JFXApp3 {
 
   private def initComponents(stage: Stage, scene: Scene): Unit =
     val css = getClass.getResource("/stylesheets.css")
-    scene.getStylesheets().add(css.toExternalForm)
+    scene.getStylesheets.add(css.toExternalForm)
 
     stage.setTitle("Calculator")
     stage.setResizable(false)
@@ -27,5 +27,5 @@ object Main extends JFXApp3 {
     val url = getClass.getResource("/main.fxml")
     val loader = FXMLLoader()
     loader.setLocation(url)
-    loader.load()
+    loader.load
 }
